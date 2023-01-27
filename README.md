@@ -1,2 +1,2 @@
-Portfolio website. 
+React based portfolio website.
 
