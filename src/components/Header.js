@@ -7,7 +7,7 @@ const Header = () => {
     <header className='py-8'>
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
-        <a href='https://t.me/dauren4' target='_blank' rel='noopener noreferrer' style={{ marginBottom: '-50px', marginTop:'-20px' }}>
+        <a href='#' style={{ marginBottom: '-50px', marginTop:'-20px' }}>
           <img src={Logo} alt='' />
         </a>
         {/* social icons */}
