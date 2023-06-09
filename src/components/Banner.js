@@ -1,10 +1,8 @@
 import React from 'react';
 import Image from '../assets/avatar.jpg'
-import { FaGithub, FaTwitter, FaTelegram, FaEnvelope} from 'react-icons/fa'
 import {TypeAnimation} from 'react-type-animation'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
-import { Type } from '@sinclair/typebox';
 import { Link } from 'react-scroll';
 
  const Banner = () => {
@@ -94,18 +92,6 @@ import { Link } from 'react-scroll';
           whileInView={'show'}
           viewport={{once:false, amount: 0.7}}     
     className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-      <a href="https://twitter.com/DaurenNox" target="_blank" rel="noopener noreferrer">
-        <FaTwitter />
-      </a>
-      <a href="https://github.com/DaurenNox" target="_blank" rel="noopener noreferrer">
-        <FaGithub />
-      </a>
-      <a href="https://t.me/dauren4" target="_blank" rel="noopener noreferrer">
-        <FaTelegram />
-      </a>
-      <a href="mailto:dauren.nox@gmail.com">
-  <FaEnvelope />
-</a>
 
     </motion.div>
 
